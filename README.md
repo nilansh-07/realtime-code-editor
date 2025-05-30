@@ -1,72 +1,45 @@
-# Real-Time Collaborating IDE
+# ⚡ Real-Time Collaborative IDE
 
-This repository contains the full-stack implementation of a real-time collaborative IDE. The project is divided into two main parts:
+A fully functional, real-time collaborative code editor built with modern web technologies. Designed for seamless multi-user code collaboration with support for live synchronization, role-based access, and language switching.
 
-- **Backend**: A Node.js-based server that handles real-time collaboration via WebSockets.
-- **Frontend**: A React.js application providing a collaborative code editor interface.
+---
 
-## Features
+## 🧠 Overview
 
-- Real-time code synchronization
-- Multiple user collaboration
-- Role-based access control (Reader/Writer)
-- Auto-admin assignment for the first user
-- Language switching support
+This project demonstrates a **full-stack real-time IDE** leveraging WebSockets and modern frontend frameworks. It’s ideal for:
 
-## Tech Stack
+- 🧑‍💻 Pair programming  
+- 👨‍🏫 Coding interviews  
+- 🚀 Remote team collaboration  
 
-- **Backend**: Node.js, Express.js, Socket.IO
-- **Frontend**: React.js, Socket.IO Client
+---
 
-## Prerequisites
+## 📌 Features
 
-- Node.js (v14 or higher)
-- npm or yarn
-- Git
+- 🔁 Real-time collaborative editing  
+- 👥 Multiple user support with live presence  
+- 🛡️ Role-based access control (Reader / Writer)  
+- 👑 Auto-admin assignment to the first user  
+- 🌐 Language switching support  
+- ⚙️ Modular frontend/backend architecture  
 
-## Setup
+---
 
-### Clone the Repository
+## 🛠️ Tech Stack
 
-```bash
-git clone https://github.com/yourusername/Real-Time-Collaborating-IDE.git
-cd Real-Time-Collaborating-IDE
-```
+**Frontend**  
+- React.js  
+- Socket.IO Client  
+- CSS Modules / Tailwind CSS (optional)
 
-### Backend Setup
+**Backend**  
+- Node.js  
+- Express.js  
+- Socket.IO  
 
-1. Navigate to the backend folder:
-   ```bash
-   cd backend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the server:
-   ```bash
-   npm run dev  # Development mode
-   npm start    # Production mode
-   ```
+---
 
-### Frontend Setup
-
-1. Navigate to the frontend folder:
-   ```bash
-   cd ../frontend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-The frontend will run at `http://localhost:3000`, and the backend server will run at `http://localhost:5000` (default port).
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 Real-Time-Collaborating-IDE/
@@ -75,15 +48,23 @@ Real-Time-Collaborating-IDE/
 │── README.md      # Project documentation
 ```
 
-## Contributing
+---
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
+## ⚙️ Getting Started
 
-## License
+### 📋 Prerequisites
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Node.js (v14 or higher)  
+- npm or yarn  
+- Git  
+
+---
+
+### 📦 Installation
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nilansh-07/realtime-code-editor.git
+cd realtime-code-editor
 
