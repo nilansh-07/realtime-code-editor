@@ -2,6 +2,8 @@
 
 A fully functional, real-time collaborative code editor built with modern web technologies. Designed for seamless multi-user code collaboration with support for live synchronization, role-based access, and language switching.
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://realtime-code-editor-ten-mocha.vercel.app/)
+
 ---
 
 ## 🧠 Overview
